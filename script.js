@@ -63,10 +63,16 @@ class TextScramble {
 // ——————————————————————————————————————————————————
 
 const phrases = [
-'Fouws Loading..',
-'Fouws Loaded!',
-'Project Fouws Loading..',
-'Python'];
+'Sabo',
+'discord.gg/2336',
+'C#',
+'C++',
+'Java',
+'PHP',
+'Javascript/NodeJS',
+'GOLang',
+'Python',
+'Assembly'];
 
 const el = document.querySelector('.text');
 const fx = new TextScramble(el);
