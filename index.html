@@ -131,8 +131,8 @@ font-family: 'Montserrat', sans-serif;
 </center>
 <center>
     <script src="./script.js"></script>
-	<img src="https://spotify-recently-played-readme.vercel.app/api?user=iezf8g4u9b9n9rgqvrj2e5q3a&width=300&count=3">
-    <img src="https://lanyard-profile-readme.vercel.app/api/983810412019613767">
+	<img src="https://spotify-recently-played-readme.vercel.app/api?user=iezf8g4u9b9n9rgqvrj2e5q3a&width=300&count=3" id="sp1">
+    <img src="https://lanyard-profile-readme.vercel.app/api/983810412019613767" id="sp2">
     <div style="letter-spacing: 3;font-size: 13;">
         <div id="center"
             <div class="animated fadeInDown">
@@ -181,6 +181,14 @@ font-family: 'Montserrat', sans-serif;
 <div id="pp" style="cursor: pointer; letter-spacing: 2px; font-size: 14px;" onclick="pVid();"><i class="fas fa-play"></i></div>
 </center>
 </div>
+	
+<script type="text/javascript">
+    setInterval(function () {
+document.getElementById("sp1").src="https://spotify-recently-played-readme.vercel.app/api?user=iezf8g4u9b9n9rgqvrj2e5q3a&width=300&count=3";
+document.getElementById("sp2").src="https://lanyard-profile-readme.vercel.app/api/983810412019613767";
+	}, 1000);
+</script>
+	
 <script type="text/javascript">
     
 var audio = document.getElementById("audio"); 
